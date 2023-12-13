@@ -1,2 +1,1 @@
-# LearningOS.github.io
-homepage of LearningOS.cn
+![40ab6639d12398d9ee40e9efe5c7fdd](https://github.com/LearningOS/LearningOS.github.io/assets/113871206/9a9c89cf-8784-430f-81b5-c2ebf1d7f188)![40ab6639d12398d9ee40e9efe5c7fdd](https://github.com/LearningOS/LearningOS.github.io/assets/113871206/54c47a40-1301-4e3d-9bd8-066e00d47ac5)
