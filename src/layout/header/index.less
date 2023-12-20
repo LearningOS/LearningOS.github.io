@@ -3,7 +3,8 @@
     height: 6.6vw;
     background-color: #f7f3ff;
     // border: 1px solid #000000;
-    position: absolute;
+    position: fixed;
+    top: 0;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -40,24 +41,30 @@
 
         li {
             list-style: none;
-            font-size: 1.4vw;
-            color: #47515f;
-            letter-spacing: 0.03vw;
-            cursor: pointer;
-            &:hover{
+
+            a {
+                font-size: 1.4vw;
+                letter-spacing: 0.03vw;
+                color: #47515f;
+                text-decoration: none;
+                transition: all .2s;
+
+                &:hover {
+                    color: #5526b3;
+                }
+            }
+
+            .active {
+                font-weight: 600;
                 color: #5526b3;
             }
-            transition: all .2s;
         }
 
-        .active {
-            font-weight: 600;
-            color: #5526b3;
-        }
+
     }
 
     .login-wrap {
-        font-size: 1.48vw;
+        cursor: pointer;
         font-weight: 600;
         color: #906dfc;
         display: flex;
