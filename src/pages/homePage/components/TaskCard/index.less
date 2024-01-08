@@ -1,0 +1,56 @@
+@import '../../../../styles/mixin.less';
+
+.task-card {
+    // .ab-center();
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px 20px;
+    // width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    gap: 20px;
+    transition: all .4s;
+    box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    .task-title {
+        color: var(--primary-blue-dark);
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .get {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        .get-number {
+            color: #808080;
+            font-size: 1rem;
+        }
+
+        .click {
+            color: var(--primary-blue-dark);
+        }
+
+        .claimed {
+            width: 80px;
+            height: 80px;
+            z-index: 10;
+            position: absolute;
+            background: url("../../../../assets/images/claimed.png") top no-repeat;
+            background-size: 80px;
+            right: 0;
+            top: -40px;
+        }
+    }
+
+}
